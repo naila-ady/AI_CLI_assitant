@@ -18,5 +18,6 @@ model_provider=OpenAIChatCompletionsModel(
 config=RunConfig(
     model=model_provider,
     model_provider=client,
-    tracing_disabled=True
+    tracing_disabled=False
+
 )
